@@ -1,0 +1,113 @@
+.card--container{
+    height: fit-content;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        flex-direction: column;
+    flex-wrap: wrap;
+
+    position: relative;
+    background-color: #f1f1f1;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10%;
+
+    cursor: pointer;
+}
+.card--container:hover{
+    background-color: #f7f7f7;
+}
+
+.stats{
+    background-color: #fff;
+    height: fit-content;
+    width: fit-content;
+    padding: 0.4rem;
+    border-radius: 50%;
+    position: relative;    
+    font-weight: 700;
+    font-size: 1.1rem;
+    font-size: 0.6rem;
+}
+ .card--kg{
+    left: -5.8rem;
+    top: -1.3rem;
+}
+
+.card--height{
+    right: -7.3rem;
+    top: -2.8rem;
+} 
+.card--img{
+    align-self: center;
+    position: relative;
+    top: -3.6rem;
+    height: 10rem;
+    
+}
+.card--name{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-size: 0.8rem;
+    position: relative;
+    top: -3.5rem;
+}
+.card--types{
+    display: flex;
+    gap: 0.6rem;
+    width: fit-content;
+}
+.card--type{
+    top: -2rem;
+    font-size: 1rem;
+    font-size: 0.6rem;
+    text-transform: capitalize;
+    padding: 0.6rem;
+    border-radius: 1.5rem;
+    width: fit-content;
+    color: #1e1e1e;
+}
+
+
+
+@media (max-width: 500px) {
+    .card--container {
+      width: 8rem;
+      padding: 0.5rem;
+    }
+  
+    .stats {
+      padding: 0.2rem;
+      font-size: 0.4rem;
+    }
+  
+    .card--kg {
+      left: -3.5rem;
+      top: -1rem;
+    }
+  
+    .card--height {
+      right: -4.5rem;
+      top: -2rem;
+    }
+  
+    .card--img {
+      top: -2.2rem;
+      height: 4rem;
+      width: 4rem;
+    }
+  
+    .card--name {
+      font-size: 0.6rem;
+      top: -2.3rem;
+    }
+  
+    .card--type {
+      top: -1.2rem;
+      font-size: 0.4rem;
+      padding: 0.3rem;
+    }
+  }
+  

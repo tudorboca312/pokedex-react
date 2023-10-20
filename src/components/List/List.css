@@ -1,0 +1,25 @@
+.list--container{
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.4rem;
+    width: 50vw;
+    padding-left: 4rem;
+    height: fit-content;
+    padding-bottom: 2rem;
+
+}
+
+@media (max-width: 500px) {
+
+    .list--container{
+        width: 60vw;
+        padding-left: 1rem;
+        margin: auto;
+    }
+  
+  }
+  
+  @media (max-width: 1160px) {
+    
+  }

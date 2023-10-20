@@ -1,0 +1,298 @@
+.pokemon--container{
+    background-color: #f1f1f1;
+    background-color: #fff;
+    margin-left: 1rem;
+    width: 25vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    border-radius: 2rem;
+    padding: 1rem;
+    position: fixed; 
+    left: 66.5%;
+    gap: 1rem;
+}
+
+.pokemon--img{
+    height: 10rem;
+    width: 10rem;
+}
+.pokemon--id{
+    font-weight: 700;
+    font-size: 1rem;
+    color: #959595;
+}
+.pokemon--name{
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+}
+.pokemon--description--section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+  }
+  
+  .pokemon--description--section p {
+    hyphens: auto;
+  }
+.pokemon--title{
+    text-decoration: underline;
+}
+.pokemon--description{
+    font-size: 0.8rem;
+    color: #6b6b6b;
+}
+.pokemon--types{
+    display: flex;
+    gap: 0.6rem;
+    width: fit-content;
+}
+.pokemon--type{
+    top: -2rem;
+    font-size: 0.6rem;
+    text-transform: capitalize;
+    padding: 0.6rem;
+    border-radius: 1.5rem;
+    width: fit-content;
+    color: #1e1e1e;
+}
+.pokemon--identity{
+    display: flex;
+    gap: 1rem;
+
+}
+.weight, .height, .experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+.experience{
+    align-items: center;
+}
+.pokemon--weight{
+    background-color: #f1f1f1;
+    padding: 0.7rem;
+    border-radius: 10rem;
+    font-size: 0.6rem;
+    width: fit-content;
+}
+.pokemon--height{
+    background-color: #f1f1f1;
+    padding: 0.7rem;
+    border-radius: 10rem;
+    font-size: 0.6rem;
+    width: fit-content;
+}
+.pokemon--experience{
+    background-color: rgb(123, 123, 252);
+    padding: 0.7rem;
+    border-radius: 10rem;
+    font-size: 0.6rem;
+    width: fit-content;
+    color: #fff;
+}
+.pokemon--stats{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.6rem;
+    gap: 0.5rem;
+}
+.individual--stat{
+    background-color: #f1f1f1;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stat--name{
+    padding: 1.3rem;
+    width: 2rem;
+    border-radius: 50%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.stat--stat{
+    padding: 1.3rem;
+    width: 2rem;
+    border-radius: 50%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pokemon--weak{
+    display: flex;
+    text-transform: capitalize;
+    gap: 1rem;
+    flex-wrap: wrap;
+    font-size: 0.7rem;
+}
+.weaknesses{
+    padding: 0.6rem;
+    border-radius: 2rem;
+}
+
+
+
+@media (max-width: 1000px) {
+    .pokemon--img{
+        height: 6rem;
+    width: 6rem;
+    }
+    .pokemon--container{
+        height: fit-content;
+    }
+    .pokemon--name{
+        font-size: 0.7rem;
+    }
+    .pokemon--title{
+        font-size: 0.7rem;
+    }
+    .experience--title{
+        font-size: 0.7rem;
+    }
+    .pokemon--type{
+        font-size: 0.4rem;
+        text-transform: capitalize;
+        padding: 0.6rem;
+        border-radius: 1.5rem;
+        width: fit-content;
+        color: #1e1e1e;
+    }
+    .pokemon--description{
+        font-size: 0.5rem;
+    }
+    .pokemon--identity{
+        gap: 0.5rem;
+        font-size: 0.45rem;
+    }
+    .pokemon--weight{
+        padding: 0.4rem;
+        font-size: 0.5rem;
+    }
+    .pokemon--height{
+        padding: 0.4rem;
+        font-size: 0.5rem;
+    }
+    .pokemon--experience{
+        padding: 0.4rem;
+        font-size: 0.5rem;
+    }
+    .stats--title{
+        font-size: 0.7rem;
+    }
+    .pokemon--stats{
+        font-size: 0.5rem;
+        gap: 0.3rem;
+        display: flex;
+        justify-content: center;
+    }
+    .stat--name{
+        padding: 1.1rem;
+        width: 2rem;
+        height: 2rem;
+    }
+    .stat--stat{
+        padding: 1.1rem;
+        width: 2rem;
+        height: 2rem;
+    }
+    .weaknesses--title{
+        font-size: 0.7rem;
+    }
+    .pokemon--weak{
+        gap: 0.5rem;
+        font-size: 0.4rem;
+    }
+    .weaknesses{
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .pokemon--img{
+        height: 6rem;
+    width: 6rem;
+    }
+    .pokemon--container{
+        width: 9rem;
+        height: fit-content;
+    }
+    .pokemon--name{
+        font-size: 0.7rem;
+    }
+    .pokemon--title{
+        font-size: 0.7rem;
+    }
+    .experience--title{
+        font-size: 0.7rem;
+    }
+    .pokemon--type{
+        font-size: 0.4rem;
+        text-transform: capitalize;
+        padding: 0.6rem;
+        border-radius: 1.5rem;
+        width: fit-content;
+        color: #1e1e1e;
+    }
+    .pokemon--description{
+        font-size: 0.5rem;
+    }
+    .pokemon--identity{
+        gap: 0.5rem;
+        font-size: 0.45rem;
+    }
+    .pokemon--weight{
+        padding: 0.4rem;
+        font-size: 0.5rem;
+    }
+    .pokemon--height{
+        padding: 0.4rem;
+        font-size: 0.5rem;
+    }
+    .pokemon--experience{
+        padding: 0.4rem;
+        font-size: 0.5rem;
+    }
+    .stats--title{
+        font-size: 0.7rem;
+    }
+    .pokemon--stats{
+        font-size: 0.5rem;
+        gap: 0.3rem;
+        display: flex;
+        justify-content: center;
+    }
+    .stat--name{
+        padding: 1.1rem;
+        width: 2rem;
+        height: 2rem;
+    }
+    .stat--stat{
+        padding: 1.1rem;
+        width: 2rem;
+        height: 2rem;
+    }
+    .weaknesses--title{
+        font-size: 0.7rem;
+    }
+    .pokemon--weak{
+        gap: 0.5rem;
+        font-size: 0.4rem;
+    }
+    .weaknesses{
+        padding: 0.5rem;
+    }
+
+}
+
+
