@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navigation.css";
+// import logo from "../../../public/logo.png";
 
 function Navigation({
   setSearchInput,
@@ -53,7 +54,7 @@ function Navigation({
   return (
     <section className="nav--container">
       <img
-        src="logo.png"
+        src="/logo.png"
         alt="logo"
         style={{ width: "4rem", cursor: "pointer" }}
         onClick={goHome}
