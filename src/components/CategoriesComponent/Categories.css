@@ -34,7 +34,7 @@
 
 @media (max-width: 500px) {
     .categories--container {
-      width: 20vw; /* Expanded for smaller screens */
+      width: 20vw; 
     }
   
     .categories--li {

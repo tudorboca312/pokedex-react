@@ -14,12 +14,9 @@
 
     .list--container{
         width: 60vw;
-        padding-left: 1rem;
+        /* padding-left: 4rem; */
         margin: auto;
     }
   
   }
   
-  @media (max-width: 1160px) {
-    
-  }

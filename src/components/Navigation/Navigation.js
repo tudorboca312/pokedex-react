@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navigation.css";
-// import logo from "../../../public/logo.png";
+import logo from "../photos/logo.png";
+import pokeball from "../photos/pokeball.png";
 
 function Navigation({
   setSearchInput,
@@ -54,7 +55,7 @@ function Navigation({
   return (
     <section className="nav--container">
       <img
-        src="/logo.png"
+        src={logo}
         alt="logo"
         style={{ width: "4rem", cursor: "pointer" }}
         onClick={goHome}
@@ -69,7 +70,7 @@ function Navigation({
           className="search-input"
         />
         <button type="submit" className="search-button" onSubmit={handleSubmit}>
-          <img src="./pokeball.png" alt="Search" className="pokeball-button" />
+          <img src={pokeball} alt="Search" className="pokeball-button" />
         </button>
       </form>
       <section className="nav--buttons">

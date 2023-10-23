@@ -226,6 +226,10 @@
     .pokemon--container{
         width: 9rem;
         height: fit-content;
+        position:sticky;
+        top: 0;
+        /* margin-right: 2rem; */
+        /* margin-left: 5rem; */
     }
     .pokemon--name{
         font-size: 0.7rem;
